@@ -3,10 +3,10 @@ package ativ.weg.atividade.repository;
 import org.springframework.data.jpa.repository.JpaRepository;
 import org.springframework.stereotype.Repository;
 
-import ativ.weg.atividade.model.Funcionario;
+import ativ.weg.atividade.model.Projeto;
 
 @Repository
-public interface ProjetoRepository extends JpaRepository<Funcionario,Long> {
+public interface ProjetoRepository extends JpaRepository<Projeto,Long> {
     
     
 }

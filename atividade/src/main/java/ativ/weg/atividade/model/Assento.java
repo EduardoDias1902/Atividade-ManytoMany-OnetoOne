@@ -1,7 +1,5 @@
 package ativ.weg.atividade.model;
 
-import java.util.ArrayList;
-import java.util.List;
 
 import jakarta.persistence.Entity;
 import jakarta.persistence.GeneratedValue;
@@ -28,6 +26,7 @@ private Long id;
 private String codigo;
 
 @OneToOne (mappedBy = "assento")
+@com.fasterxml.jackson.annotation.JsonIgnore
 private Funcionario funcionario;
 
 }
